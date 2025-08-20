@@ -1,0 +1,10 @@
+#update existing patient entity
+PUT http://localhost:4000/patients/123e4567-e89b-12d3-a456-426614174000
+Content-Type: application/json
+
+{
+  "name" : "Sameera Jayakodi",
+  "email": "sameera2@gmail.com",
+  "address": "123 diyatalawa",
+  "dateOfBirth": "2000-04-07"
+}
