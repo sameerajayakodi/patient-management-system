@@ -30,7 +30,6 @@ public class Patient {
     private LocalDate registeredDate;
 
 
-
 }
 
 

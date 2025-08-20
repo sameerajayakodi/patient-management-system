@@ -1,0 +1,11 @@
+#create new patient entity
+POST localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name" : "Sameera Jayakodi",
+  "email": "sameera@gmail.com",
+  "address": "123 diyatalawa",
+  "dateOfBirth": "2000-04-07",
+  "registeredDate": "2025-08-20"
+}
