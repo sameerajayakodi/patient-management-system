@@ -22,7 +22,7 @@ public class KafkaProducer {
 
 
         try {
-            kafkaTemplate.send("patient-events", event.toByteArray());
+            kafkaTemplate.send("patient", event.toByteArray());
         }catch (Exception e) {
             log.error("Error sending PatientCreated even: {}",event);
         }
